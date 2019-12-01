@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- my CSS -->
+      <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+   <!-- my scripts -->
+    <script src ="script.js"></script>
+
+
+    <title>Hickies Originals</title>
+  </head>
+  <body>
+
+      <div class = "container-fluid">
+
+          <div class = "row align-items-end" id = "titleRow">
+
+              <div class = "col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+                <h1 id = "Title">HICKIES Originals</h1>
+
+              </div>
+
+          </div> <!-- Title row -->
+
+     <div class = "row align-items-end" id = "reviewStuff">
+
+          <div class = "col-xs-3 col-sm-3 col-md-2 col-lg-1">
+
+              <img src= "stars.jpg" id = "starsImage" class ="img-fluid" >
+
+         </div> <!-- stars image -->
+
+         <div class = "col-xs-6 col-sm-6 col-md-6 col-lg-6" id="revDiv">
+
+            <p id ="reviewCount" >1,293 reviews</p>
+
+         </div> <!-- review count  -->
+
+        </div>  <!-- review row -->
+
+
+    <div class = "row " id = "priceInfo">
+
+          <div class = "col-xs-1 col-sm-1 col-md-1 col-lg-1">
+
+              <h2  class = "font special"> $<span id ="discountedPrice">14.99</span></h2>
+
+        </div><!-- discounted price -->
+
+        <div class = "col-xs-1 col-sm-1 col-md-1 col-lg-1">
+
+
+        </div><!-- blank div-->
+
+        <div class = "col-xs-1 col-sm-1 col-md-1 col-lg-1">
+
+            <p id = "originalPrice" class = "font">$17.99</p>
+
+        </div><!-- OG price -->
+
+         <div class = "col-xs-1 col-sm-1 col-md-1 col-lg-1">
+
+
+        </div><!-- blank div-->
+
+        <div class = "col-xs-2 col-sm-2 col-md-1 col-lg-1">
+
+            <p id = "markdownMargin" class = "font">25% OFF</p>
+
+        </div><!-- markdown -->
+
+
+          </div><!-- price info row -->
+
+
+    <div class = "row align-items-end" id = "onlineEx">
+
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+            <p id="exclusive">ONLINE EXCLUSIVE</p>
+
+            </div>
+
+          </div><!-- online exclusive line-->
+
+    <div class = "row align-items-end" id = "colorName">
+
+        <div class="col-xs-4 col-sm-4 col-md-12 col-lg-12">
+
+         <p id = "colorNameVal"><b>COLOR:</b> <span id="colour"></span></p>
+        </div>
+
+
+
+          </div><!-- color name line-->
+
+    <div class = "row" id ="colorPickerElement">
+        
+      <!-- adding each color button separately  -->
+      
+        <div class = "col-xs-1 col-sm-12 col-md-12 col-lg-12">
+      <button  type="button" class="btn btn-primary myBut" id = "Black" onclick="showColor(this)"></button>
+      <button  type="button" class="btn btn-primary myBut" id = "White" onclick="showColor(this)"></button>                                                    
+      <button  type="button" class="btn btn-primary myBut" id = "Gray" onclick="showColor(this)"></button>
+      <button  type="button" class="btn btn-primary myBut" id = "Red" onclick="showColor(this)"></button>
+      <button  type="button" class="btn btn-primary myBut" id = "Maroon" onclick="showColor(this)"></button>
+      <button  type="button" class="btn btn-primary myBut" id = "Orange-Red" onclick="showColor(this)"></button>
+      <button  type="button" class="btn btn-primary myBut" id = "Orange" onclick="showColor(this)"></button>
+      <button  type="button" class="btn btn-primary myBut" id = "Yellow" onclick="showColor(this)"></button>
+      <button  type="button" class="btn btn-primary myBut" id = "Green-Yellow" onclick="showColor(this)"></button>
+      <button  type="button" class="btn btn-primary myBut" id = "Green" onclick="showColor(this)"></button>
+      <button  type="button" class="btn btn-primary myBut" id = "Sky-Blue" onclick="showColor(this)"></button>
+      <button  type="button" class="btn btn-primary myBut" id = "Blue" onclick="showColor(this)"></button>
+      <button  type="button" class="btn btn-primary myBut" id = "Royal-Blue" onclick="showColor(this)"></button>
+      <button  type="button" class="btn btn-primary myBut" id = "Purple" onclick="showColor(this)"></button>
+      <button  type="button" class="btn btn-primary myBut" id = "Pink" onclick="showColor(this)"></button>
+      <button  type="button" class="btn btn-primary myBut" id = "Violet" onclick="showColor(this)"></button>
+      <button  type="button" class="btn btn-primary myBut" id = "Salmon" onclick="showColor(this)"></button>
+      <button  type="button" class="btn btn-primary myBut" id = "Brown" onclick="showColor(this)"></button>
+
+    </div>
+        
+                                                   
+        
+        
+      
+          </div><!--colors line-->
+
+    <div class="row align-items-end" id = "sizeGuideRow">
+
+    <div class = "col-xs-3 col-sm-3 col-md-3 col-lg-3">
+        <p id = "sizeG"><b>Size Guide</b></p>
+
+        </div>
+
+    </div> <!-- size guide row-->
+
+     <div class="row align-items-end" id = "customFit">
+
+    <div class = "col-xs-3 col-sm-3 col-md-3 col-lg-3">
+        <p id = "cusFit"><b>Your Custom Fit</b></p>
+
+        </div>
+    </div> <!-- customFitRow-->
+
+    <div class ="row align-items-end" id = "cartStuff">
+
+
+          <div class = "col-xs-2 col-sm-2 col-md-2 col-lg-2">
+
+           <button id ="numItems" type="button" class="btn btn-outline-dark" disabled></button>
+
+        </div>
+
+        <div class = "col-xs-4 col-sm-4 col-md-4 col-lg-4">
+            
+            <!-- this button truggers the modal --> 
+            <button type="button" class="btn btn-dark btn-rounded" id="add"  onclick="addCart(this);checkout(this)">Add to Cart</button>
+            
+            <!-- Modal -->
+<div class="modal fade cart" id="cartModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalTit">Please add the quantity of the item you have selected</h5>
+        
+          
+        </button>
+      </div>
+      <div class="modal-body">
+       
+          <!-- row div for modal body --> 
+          <div class = 'row'>
+          <div class = "col-xs-5 col-sm-5 col-md-5 col-lg-5 pleaseWork" > <p id= "lblModalColor"></p></div>
+          <div class = "col-xs-2 col-sm-2 col-md-2 col-lg-2"><button type="button" class ="btn btn-dark modalBtn" id ="btnMinus" onclick="changeVal(this)">-</button></div>
+          <div class = "col-xs-2 col-sm-2 col-md-3 col-lg-2 pleaseWork" ><h1 id = "modalQuant"></h1></div>
+          <div class = "col-xs-2 col-sm-2 col-md-2 col-lg-2"><button type="button" class ="btn btn-dark modalBtn" id ="btnPlus" onclick="changeVal(this)">+</button></div>
+             
+              
+              
+              
+          
+          </div> <!-- end row div -->
+          <!-- yo -->
+          
+          
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-success" id="mod1Agree" onclick="modal1Done(this)">Agree</button>
+        <button type="button" class="btn btn-outline-danger" data-dismiss="modal"  id ="mod1Cancel" onclick="rel(this)">Cancel</button>
+      </div>
+    </div>
+  </div>
+</div> <!-- END OF MODAL -->
+
+
+
+        </div>
+
+
+
+          </div><!-- cart stuff-->
+
+    <hr>
+
+    <div class="row">
+      <div class ="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+      <h5>DETAILS</h5>
+
+    </div><!--end of row-->
+
+  </div>   <!-- details row -->
+
+  
+  <div class="row" id = "dispColorsBought">
+
+      
+  </div><!--end of showing color div-->
+  
+  
+
+  <hr>
+
+
+  <div class="row">
+    <div class ="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+   <!-- Button trigger modal -->
+<button type="button" class="btn btn-link" data-toggle="modal" data-target="#exampleModal">
+ <b>Need Help?</b> 
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Help</h5>
+    
+          
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <p>Click on a colour to select it and to remove it from your cart, click on it again.</p>
+        <p>With every click, you will see that <b>COLOURS</b> will have updated</p>
+        <p>Once you have chosen the colours click add to cart</p>
+        <p>A dialog box will open and let yo uselect how much of each colour you want. Click agree to go to the next one</p>
+        <p>To finalise your order, press "Checkout"</p>
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-danger" data-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+  </div>
+
+  <div class="row">
+    <div class ="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <button type="button" class="btn btn-link" data-toggle="modal" data-target="#exampleModalLong"><b>Shipping & Returns</b></h6>
+
+  </div>
+  </div>
+
+  <!-- Modal -->
+<div class="modal fade" id="checkoutMod" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Cart Summary</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id = "checkoutParent">
+
+
+        </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-success" onclick="checkAlert();rel(this)">Checkout</button>
+        <button type="button" class="btn btn-outline-danger" onclick="rel(this)">Cancel</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      </div><!-- container div -->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

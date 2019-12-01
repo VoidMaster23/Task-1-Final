@@ -1,0 +1,201 @@
+#Title{
+    font-weight: bold;
+}
+
+
+#starsImage{
+    height: auto;
+    vertical-align: middle;
+}
+
+
+#reviewCount{
+    color: grey;
+    max-width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    margin-bottom: 0px;
+    
+}
+
+.special{
+    color: red;
+    font-weight: bold;
+   
+}
+
+#originalPrice{
+    color: grey;
+    
+
+}
+
+#markdownMargin{
+    font-weight: bold;
+    color: grey;
+}
+
+#numItems{
+    line-height: 15px;
+    border: 2px solid rgba(0, 0, 0, 0.75);
+    border-radius: 40px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 10px;
+}
+
+#add{
+    width: 100%;
+    margin-left: auto;
+    line-height: 15px;
+  border: 2px solid rgba(0, 0, 0, 0.75);
+  border-radius: 40px;
+  background-color: black;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 10px;
+}
+
+
+.myBut{
+            width: 30px; 
+            height: 30px; 
+            padding: 6px 0px; 
+            border-radius: 15px; 
+            border-color:white;
+            border-width: 2px;
+            font-size: 8px; 
+            text-align: center; 
+            margin-top: 10px;
+           
+}
+
+.myBut:focus{
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.075) inset, 0px 0px 0px 3px rgba(34, 34, 34, 0.5);
+    outline: 2px black;
+    border-color: white;
+}
+
+#Black{
+    background-color: black;
+}
+
+#White{
+    background-color: white;
+    border-color: black;
+}
+
+#Gray{
+    background-color: gray;
+}
+
+#Red{
+    background-color: red;
+}
+
+#Maroon{
+    background-color: maroon;
+}
+
+#Orange-Red{
+    background-color: orangered;
+}
+
+#Orange{
+    background-color: orange;
+}
+
+#Yellow{
+    background-color: yellow;
+}
+
+#Green-Yellow{
+    background-color: greenyellow;
+}
+
+#Green{
+    background-color:green;
+}
+
+#Sky-Blue{
+    background-color: skyblue;
+}
+
+#Blue{
+    background-color: blue;
+}
+
+#Royal-Blue{
+    background-color: royalblue;
+}
+
+#Purple{
+    background-color: purple;
+}
+
+#Pink{
+    background-color: pink;
+}
+
+#Violet{
+    background-color: violet;
+}
+
+#Salmon{
+    background-color: salmon;
+}
+
+#Brown{
+    background-color: brown;
+}
+
+.modalBtn{
+    width: 60px; 
+    height: 60px; 
+    padding: 6px 0px; 
+    border-radius: 30px; 
+    border-color:white;
+    border-width: 2px;
+    font-size: 16px; 
+    text-align: center; 
+    margin-top: 10px;
+}
+
+#modalQuant{
+    align-content: center;
+    padding-top: 15px;
+}
+
+#colorPickerElement{
+        display: flex;
+        flex-wrap: wrap;
+      
+}
+
+.pleaseWork{
+    text-align: center;
+    text-align: center;
+}
+
+#lblModalColor{
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+#modalTit{
+    font-size: 16px;
+}
+
+.cart{
+    border-width:5px;  
+    border-style:double;
+}
+
+.font{
+    line-height: 15px;
+    padding-top: 15px;
+}
+
